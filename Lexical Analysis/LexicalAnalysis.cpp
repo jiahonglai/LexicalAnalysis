@@ -11,7 +11,7 @@ using namespace std;
 int lineNum = 1; //行数
 int charNum = 0; //字符数
 int keywordNum = 0; //关键字数量
-int punNum = 0; //标点符号数量
+int punNum = 0; //标点符号和算术运算符数量
 int opNum = 0; //关系运算符数量
 int idNum = 0; //标识符数量
 int numNum = 0; //数字常量数量
