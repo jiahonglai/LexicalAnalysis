@@ -531,6 +531,10 @@ void analysis(ifstream& infile)
 			if (state == 3 || state == 4) buf += ch; //×¢ÊÍÖĞ²»±¨´í
 			else
 			{
+				if (state == 1 || state == 2)
+				{
+					addSymbol(buf, state);
+				}
 				state = 0;
 				cout << "[ERROR]Line " << lineNum << ": Invalid character. \"" << ch << "\"" << endl;
 			}
@@ -566,7 +570,7 @@ int main()
 {
 	init();
 
-	ifstream infile("test4.txt");
+	ifstream infile("test1.txt");
 
 	if (!infile.is_open())
 	{

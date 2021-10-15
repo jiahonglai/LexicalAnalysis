@@ -1,0 +1,58 @@
+
+Total lines: 12
+Total Chars: 123
+KeyWord: 6
+Identifier: 15
+NumericConstant: 2
+Punctuator: 20
+Operator: 3
+Comment: 1
+
+Symbol Table:
+< keyword , int >
+< id , main >
+< ( , - >
+< ) , - >
+< { , - >
+< keyword , int >
+< id , a >
+< , , - >
+< id , b >
+< ; , - >
+< id , a >
+< ++ , - >
+< ; , - >
+< id , a >
+< += , - >
+< id , b >
+< ; , - >
+< keyword , int >
+< id , c35 >
+< ; , - >
+< keyword , if >
+< ( , - >
+< id , a >
+< relop , GT >
+< id , b >
+< && , - >
+< id , b >
+< relop , LE >
+< id , c >
+< ) , - >
+< comment , /*
+  b/=c; /* dasd */ >
+< id , d >
+< assign-op , = >
+< id , a >
+< % , - >
+< id , b >
+< ; , - >
+< keyword , int >
+< id , x >
+< assign-op , = >
+< num , -16.83E+5 >
+< ; , - >
+< keyword , return >
+< num , 0 >
+< ; , - >
+< } , - >

@@ -1,0 +1,67 @@
+[ERROR]Line 4: Invalid character. "`"
+[ERROR]Line 9: Identifier cannot start with a number. "32xy"
+[ERROR]Line 9: Illegal number. "  1.39e "
+[ERROR]Line 14: Illegal number. "-3.23e "
+
+Total lines: 16
+Total Chars: 199
+KeyWord: 8
+Identifier: 11
+NumericConstant: 4
+Punctuator: 20
+Operator: 6
+Comment: 2
+
+Symbol Table:
+< keyword , int >
+< id , main >
+< ( , - >
+< ) , - >
+< { , - >
+< keyword , int >
+< id , sum >
+< assign-op , = >
+< num , 0 >
+< ; , - >
+< keyword , int >
+< id , n >
+< id , m >
+< assign-op , = >
+< num , 100 >
+< ; , - >
+< comment , /*
+        kksadef **/
+        //aa
+    */ >
+< keyword , int >
+< assign-op , = >
+< ; , - >
+< keyword , for >
+< ( , - >
+< keyword , int >
+< id , i >
+< assign-op , = >
+< num , 0 >
+< ; , - >
+< id , i >
+< relop , LE >
+< id , n >
+< ; , - >
+< ++ , - >
+< id , i >
+< ) , - >
+< comment , //adder >
+< { , - >
+< id , sum >
+< += , - >
+< id , i >
+< ; , - >
+< } , - >
+< keyword , float >
+< id , x >
+< assign-op , = >
+< ; , - >
+< keyword , return >
+< num , 0 >
+< ; , - >
+< } , - >

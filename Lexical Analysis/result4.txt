@@ -1,0 +1,56 @@
+[ERROR]Line 3: Identifier cannot start with a number. "12xy"
+[ERROR]Line 5: Invalid character. "$"
+[ERROR]Line 7: Invalid character. "@"
+
+Total lines: 9
+Total Chars: 118
+KeyWord: 6
+Identifier: 11
+NumericConstant: 4
+Punctuator: 17
+Operator: 4
+Comment: 1
+
+Symbol Table:
+< keyword , int >
+< id , main >
+< ( , - >
+< ) , - >
+< { , - >
+< keyword , int >
+< assign-op , = >
+< num , 55 >
+< ; , - >
+< keyword , double >
+< id , a23 >
+< assign-op , = >
+< num , 1.2e9 >
+< ; , - >
+< keyword , int >
+< id , x >
+< id , ysda >
+< ; , - >
+< keyword , if >
+< ( , - >
+< id , a >
+< relop , GE >
+< id , b >
+< || , - >
+< id , a >
+< relop , NE >
+< id , c >
+< ) , - >
+< id , ff >
+< ( , - >
+< num , 2 >
+< , , - >
+< id , x >
+< + , - >
+< id , y >
+< ) , - >
+< ; , - >
+< comment , //adsas@d; >
+< keyword , return >
+< num , 0 >
+< ; , - >
+< } , - >

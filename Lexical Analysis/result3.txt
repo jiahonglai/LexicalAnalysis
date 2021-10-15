@@ -1,0 +1,67 @@
+
+Total lines: 13
+Total Chars: 146
+KeyWord: 9
+Identifier: 14
+NumericConstant: 5
+Punctuator: 24
+Operator: 4
+Comment: 2
+
+Symbol Table:
+< keyword , void >
+< id , fun >
+< ( , - >
+< keyword , int >
+< id , x >
+< ) , - >
+< { , - >
+< keyword , return >
+< id , x >
+< * , - >
+< id , x >
+< + , - >
+< num , 25.03 >
+< ; , - >
+< } , - >
+< keyword , int >
+< id , main >
+< ( , - >
+< keyword , void >
+< ) , - >
+< { , - >
+< keyword , int >
+< id , a >
+< assign-op , = >
+< num ,  0 >
+< ; , - >
+< keyword , if >
+< ( , - >
+< id , a >
+< relop , LT >
+< num ,  0 >
+< ) , - >
+< id , a >
+< assign-op , = >
+< id , fun >
+< ( , - >
+< id , a >
+< ) , - >
+< ; , - >
+< comment , //function >
+< keyword , float >
+< id , b >
+< assign-op , = >
+< num ,  5.6 >
+< ; , - >
+< id , b >
+< assign-op , = >
+< id , b >
+< * , - >
+< id , a >
+< ; , - >
+< comment , /*example */ >
+< keyword , return >
+< num , 0 >
+< ; , - >
+< } , - >

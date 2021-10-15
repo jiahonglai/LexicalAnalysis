@@ -2,6 +2,7 @@ int main()
 {
    int 12xy=55;
    double a23=1.2e9;
+   int x$ysda;
    if (a>=b||a!=c) ff(2,x+y); 
    @ //adsas@d;
    return 0;

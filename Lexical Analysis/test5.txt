@@ -1,11 +1,12 @@
 int main()
 { 
     int sum=0;
-    int n=100;
+    int n`m=100;
     /*
         kksadef **/
         //aa
     */
+    int 32xy = 1.39e ;
     for(int i=0;i<=n;++i) //adder
     {
           sum+=i;
