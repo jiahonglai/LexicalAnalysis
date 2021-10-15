@@ -1,0 +1,12 @@
+int main()
+{
+  int a,b;
+  a++;
+  a+=b;
+  int c;
+  if (a>b && b<=c) /*
+  b/=c; /* dasd */
+  d=a%b; 
+  int x=-16.83E+5;
+  return 0; 
+}
