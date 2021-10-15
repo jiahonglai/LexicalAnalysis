@@ -1,0 +1,8 @@
+int main()
+{
+   int 12xy=55;
+   double a=1.2e9;
+   if (a>=b||a!=c) ff(2,x+y); 
+   @ //adsas@d;
+   return 0;
+}
