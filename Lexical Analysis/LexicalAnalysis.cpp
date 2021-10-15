@@ -528,8 +528,12 @@ void analysis(ifstream& infile)
 			break;
 
 		case '`': case '@': case '$': //非法字符
-			state = 0;
-			cout << "[ERROR]Line " << lineNum << ": Invalid character. \"" << ch << "\"" << endl;
+			if (state == 3 || state == 4) buf += ch; //注释中不报错
+			else
+			{
+				state = 0;
+				cout << "[ERROR]Line " << lineNum << ": Invalid character. \"" << ch << "\"" << endl;
+			}
 			break;
 
 		default:
@@ -562,7 +566,7 @@ int main()
 {
 	init();
 
-	ifstream infile("test1.txt");
+	ifstream infile("test4.txt");
 
 	if (!infile.is_open())
 	{
